@@ -1,18 +1,24 @@
 # Image-Classification-for-ML-Internship-2023
 
-This task is for the postion of an machine learning internship for the company Space Sense.  
-In the notebook training.ipynb is creation of the classification model from the loading of the dataset to the model saving.  
-The notebook inference.ipynb is results of predictions of this model on 20 random image sample.
+This task is for the position of an machine learning internship for the company Space Sense.  
+The following is an image classifier on the EuroSAT dataset used for land cover classification.
 
 ## User guide
 
-You can clone this repositorie on your marchine with the following line :  
+You can clone this repository on your machine with the following line :  
 
     git clone https://github.com/camdore/Image-Classification-for-ML-Internship-2023.git
 
 In the 4th cell of the training notebook and 3rd of the inference notebook you have to change the path of the directory where is stored the dataset with the adapted line :  
 
     path/to/your/directory/Image-Classification-for-ML-Internship-2023/EuroSAT/2750
+## Structure of the repository 
+
+saved_model/my_model : directories where the model created in training.ipynb is saved  
+EuroSAT/2750 : directory of the 27,000 images dataset with all of the 10 classes/subdirectories  
+README.md  
+training.ipynb : creation of the classification model from the loading of the dataset to the model saving  
+inference.ipynb : is results of predictions of this model on 20 random image sample  
 
 ## Observations
 ### 1. Constraints of the solution
