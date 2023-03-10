@@ -32,7 +32,7 @@ inference.ipynb : is results of predictions of this model on 20 random image sam
 ### 2. Potential improvements to the solution
 
 - Use a larger and more balanced dataset.
-- Use a pretrained model and use its architecture as a starting point with **transfer learning**. For example, we can use models such as ResNet, VGG, AlexNet or GoogLeNet.
+- Use a another pretrained model and use its architecture as a starting point with **transfer learning**. For example, we can use models such as ResNet, AlexNet or GoogLeNet.
 - Add more **preprocessing layers** such as **normalization** on the RGB channels in order to normalize the pixel values. There are some differences of contrast between some day and night pictures. We can use the following line :   
    
     `tf.keras.layers.Normalization(mean=([meanR, meanG, meanB]), variance=([stdR,stdG, stdB]))`
