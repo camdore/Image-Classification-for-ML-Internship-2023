@@ -1,6 +1,6 @@
 # Image-Classification-for-ML-Internship-2023
 
-This task is for the position of an machine learning internship for the company Space Sense.  
+This task is for the position of a machine learning internship for the company Space Sense.  
 The following is an image classifier on the EuroSAT dataset used for land cover classification.
 
 ## User guide
@@ -40,7 +40,7 @@ inference.ipynb : is results of predictions of this model on 20 random image sam
 - Use **batch normalization** after each convolutional layer to improve the stability of the model during training and prevent overfitting.
 - We can also reduce overfitting with weight regularization with **L2 regularization**.
 - **Ensemble learning** : Combining multiple models trained on different subsets of the dataset can improve performance and reduce overfitting. For example, using a combination of CNNs and decision trees or SVMs could provide a more robust classification system.
-- **Hyperparameter tuning** : Experiment with different values for hyperparameters such as learning rate, dropout rate, and batch size, it can improve model performance. Grid search or Bayesian optimization could be used to efficiently explore the hyperparameter space. We can use the Keras Tuner which influence model selection such as the number and width of hidden layers.
+- **Hyperparameter tuning** : Experiment with different values for hyperparameters such as learning rate, dropout rate, and batch size, it can improve model performance. Grid search or Bayesian optimization could be used to efficiently explore the hyperparameter space. We can use the Keras Tuner which influences model selection such as the number and width of hidden layers.
 
 ## Autors 
 Camille Doré
