@@ -42,5 +42,5 @@ inference.ipynb : is results of predictions of this model on 20 random image sam
 - **Ensemble learning** : Combining multiple models trained on different subsets of the dataset can improve performance and reduce overfitting. For example, using a combination of CNNs and decision trees or SVMs could provide a more robust classification system.
 - **Hyperparameter tuning** : Experiment with different values for hyperparameters such as learning rate, dropout rate, and batch size, it can improve model performance. Grid search or Bayesian optimization could be used to efficiently explore the hyperparameter space. We can use the Keras Tuner which influences model selection such as the number and width of hidden layers.
 
-## Autors 
+## Author 
 Camille Doré
